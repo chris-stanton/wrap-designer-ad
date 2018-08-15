@@ -5,6 +5,7 @@
 ## Technologies Used
   1. HTML5
   2. CSS3 - Flex Box
+  3. Animate.css (refer to libraries' documentation https://github.com/daneden/animate.css)
 
 ---
 
