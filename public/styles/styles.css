@@ -15,21 +15,21 @@ html, body {
 }
 
 .first {
-  background-image: url(../assets/images/closeup.png);
+  background-image: url(../assets/images/mockup-green.png);
 }
 
 .second {
-  background-image: url(../assets/images/mockup.png);
+  background-image: url(../assets/images/mockup-devices.png);
   height: 72%;
 }
 
 .three {
-  background-image: url(../assets/images/pic_three.png);
+  background-image: url(../assets/images/mockup-red.png);
   height: 72%;
 }
 
 .four {
-  background-image: url(../assets/images/tailpipes.jpg);
+  background-image: url(../assets/images/mockup-2.png);
   height: 72%;
 }
 
