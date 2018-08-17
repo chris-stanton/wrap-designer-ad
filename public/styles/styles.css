@@ -5,6 +5,12 @@ html, body {
   height: 100%;
 }
 
+a {
+  text-decoration: none;
+  color: #00c9ff;
+  text-shadow: 1px 1px 1px #000000;
+}
+
 .parallax {
   height: 100%;
   background-attachment: fixed;
@@ -63,8 +69,8 @@ html, body {
   align-items: center;
   background-color: #000000;
   color: #ffffff;
-  border: 1px solid #ffffff;
-  border-radius: 5px;
+  border-top: 1px solid #ffffff;
+  border-bottom: 1px solid #ffffff;
 }
 .band img {
   height: 90px;
@@ -91,12 +97,16 @@ html, body {
   font-size: 160%;
   font-weight: 300;
   color: #ffffff;
+  text-shadow: 1px 1px 1px #000000;
   position: absolute;
   top: 50%;
   right: 5%;
   transform: translate(0%, -50%);
   border-radius: 5px;
   border: 1px solid #ffffff;
+}
+.sub-caption p {
+  text-align: center;
 }
 
 .left {
@@ -108,14 +118,13 @@ html, body {
 
 footer {
   text-align: center;
-  /* position: fixed; */
   background-color: #000000;
-  opacity: 0.5;
   color: #ffffff;
   bottom: 0;
   right: 0;
   left: 0;
   padding: 10px 0px 10px 0px;
+  border-top: 1px solid #ffffff;
 }
 
 
