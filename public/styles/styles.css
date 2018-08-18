@@ -117,16 +117,27 @@ a {
 }
 
 footer {
-  text-align: center;
+  display: flex;
+  flex-direction: row;
   background-color: #000000;
   color: #ffffff;
-  bottom: 0;
-  right: 0;
-  left: 0;
   padding: 10px 0px 10px 0px;
   border-top: 1px solid #ffffff;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
 }
-
+footer div {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+footer a {
+  margin: 0px 5px;
+}
 
 
 
