@@ -5,7 +5,7 @@ html, body {
   height: 100%;
 }
 
-a {
+.redirect {
   text-decoration: none;
   color: #00c9ff;
   text-shadow: 1px 1px 1px #000000;
@@ -134,9 +134,12 @@ footer div {
   justify-content: center;
   align-items: center;
   align-content: center;
+  text-align: center;
 }
 footer a {
   margin: 0px 5px;
+  color: #00c9ff;
+  text-decoration: none;
 }
 
 
@@ -144,6 +147,17 @@ footer a {
 @media(max-width: 868px) {
   .right-heading h1 {
     font-size: 3em;
+  }
+  footer {
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px 0px 10px 0px;
+    border-top: 1px solid #ffffff;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
   }
 
 
